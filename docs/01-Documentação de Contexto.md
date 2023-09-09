@@ -1,46 +1,18 @@
 # Introdução
-
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No âmbito da organização e controle de livros, a necessidade de uma solução eficaz e acessível torna-se cada vez mais premente. A literatura desempenha um papel fundamental na sociedade, e a gestão eficiente de livros é essencial para garantir que esses recursos valiosos sejam devidamente preservados e utilizados. Nesse contexto, o presente projeto tem como objetivo desenvolver uma aplicação web e mobile destinada a auxiliar indivíduos responsáveis por bibliotecas e coleções pessoais na organização e gestão de seus livros.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A falta de uma ferramenta adequada para a organização de livros é um desafio enfrentado por muitos proprietários de bibliotecas pessoais e gestores de acervos literários. Manter um registro preciso de todos os volumes, controlar empréstimos e devoluções, bem como gerenciar informações detalhadas sobre cada obra, pode ser uma tarefa complexa e morosa. Além disso, a ausência de uma solução centralizada pode levar a perda de informações importantes, duplicação de esforços e dificuldades na localização de obras específicas.
 
 ## Objetivos
+O principal objetivo deste projeto é desenvolver uma aplicação web e mobile que simplifique significativamente o processo de organização e gestão de bibliotecas pessoais e acervos literários. Os objetivos específicos incluem:
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+ - Criar uma plataforma intuitiva e de fácil utilização para registro de livros, incluindo informações como título, autor, editora e outras informações relevantes;
+ - Implementar um sistema de controle de empréstimos e devoluções de livros;
+ - Facilitar a busca e a localização de obras dentro da biblioteca, permitindo a categorização por gênero, autor, data de publicação, entre outros critérios.
 
 ## Justificativa
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A justificativa para a realização deste projeto reside na crescente demanda por ferramentas eficazes de organização e gestão de bibliotecas pessoais. A literatura desempenha um papel fundamental na vida das pessoas, e a falta de uma solução eficiente para o gerenciamento de livros pode resultar em desperdício de tempo e recursos. Além disso, a aplicação proposta atenderá a uma necessidade real no mercado, proporcionando uma maneira conveniente e inovadora de organizar e acessar informações sobre acervos literários.
 
 ## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo deste projeto compreende proprietários de bibliotecas pessoais, entusiastas da leitura, educadores, bibliotecários e qualquer indivíduo que mantenha ou gerencie uma coleção de livros. Além disso, a aplicação também pode ser útil para instituições educacionais, escolas e bibliotecas públicas que desejam modernizar seus sistemas de gestão de acervos.
