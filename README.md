@@ -8,7 +8,7 @@
 
 `QUARTO SEMESTRE`
 
-O projeto consiste no desenvolvimento de uma aplicação web e mobile dedicada à organização e gestão de bibliotecas pessoais e acervos literários.
+Este projeto visa oferecer uma solução abrangente e eficaz para a organização e gestão de livros, beneficiando aqueles que valorizam a literatura e desejam manter seus acervos de forma organizada e acessível.
 
 ## Integrantes
 
