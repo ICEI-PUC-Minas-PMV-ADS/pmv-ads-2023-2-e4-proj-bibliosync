@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+![bibliosync-logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-proj-bibliosync/assets/103579574/81d17264-7672-41b1-a83b-4d1ed1b9eb96)
 
-`CURSO`
+# BiblioSync
 
-`DISCIPLINA`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`SEMESTRE`
+`PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO DESTRIBUÍDA`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`QUARTO SEMESTRE`
+
+O projeto consiste no desenvolvimento de uma aplicação web e mobile dedicada à organização e gestão de bibliotecas pessoais e acervos literários.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+[<img src="https://avatars.githubusercontent.com/u/103579574?v=4" width=115><br><sub>Vinicius Luiz </sub>](https://github.com/viniciussluiz) |
+| :---: |
 
 ## Orientador
 
-* Nome completo do professor 1
+* Felipe Augusto Lara Soares
 
 ## Instruções de utilização
 
