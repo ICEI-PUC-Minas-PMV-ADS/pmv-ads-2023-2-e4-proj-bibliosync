@@ -62,30 +62,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Os usuários devem ser capazes de cadastrar informações sobre os livros, incluindo título, autor, data de publicação e gênero. | ALTA | 
+|RF-002| Sistema deve permitir aos usuários registrar empréstimos de livros para terceiros, incluindo data de empréstimo, data de devolução e biblioteca de origem.   | ALTA |
+|RF-003| Oferecer uma funcionalidade de pesquisa avançada que permita aos usuários localizar livros com base em vários critérios, como autor, título, gênero, entre outros.   | MÉDIA |
+|RF-004| Enviar notificações automáticas aos usuários para lembrar devoluções de livros emprestados e fornecer atualizações sobre eventos relacionados a seus livros e bibliotecas favoritas.   | MÉDIA |
+|RF-005| Integrar um sistema de pesquisa que permita aos usuários encontrar livros disponíveis em bibliotecas próximas à sua localização.   | ALTA |
+|RF-006| Permitir aos usuários reservar livros em bibliotecas próximas, especificando um período de reserva.   | ALTA |
+|RF-007| Manter um registro de histórico de todas as reservas e empréstimos realizados pelos usuários.   | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Garantir que o aplicativo seja responsivo e rápido, mesmo com grandes volumes de dados e ao lidar com pesquisas em bibliotecas próximas. |  ALTA | 
+|RNF-002| Proteger os dados do usuário por meio de criptografia e práticas seguras de armazenamento, especialmente quando se trata de informações de localização. |  ALTA | 
+|RNF-003| Respeitar regulamentações de privacidade de dados, especialmente ao lidar com informações de localização dos usuários, e obter consentimento adequado para coleta e uso desses dados. |  ALTA | 
 
 ## Restrições
 
@@ -93,14 +84,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| A solução deve ser utilizável offline em certa medida, devido a possíveis limitações de conectividade dos usuários. |
+|02| Aplicação web e mobile devem ser desenvolvidas utilizando React e React Native, respectivamente       |
 
 ## Diagrama de Casos de Uso
 
