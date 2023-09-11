@@ -8,7 +8,7 @@
 
 `QUARTO SEMESTRE`
 
-Este projeto visa oferecer uma solução abrangente e eficaz para a organização e gestão de livros, beneficiando aqueles que valorizam a literatura e desejam manter seus acervos de forma organizada e acessível  e, adicionalmente, possibilitar aos usuários encontrar e reservar livros em bibliotecas próximas.
+Este projeto visa oferecer uma solução abrangente e eficaz para a organização e gestão de livros, beneficiando aqueles que valorizam a literatura e desejam manter seus acervos de forma organizada e acessível.
 
 ## Integrantes
 
