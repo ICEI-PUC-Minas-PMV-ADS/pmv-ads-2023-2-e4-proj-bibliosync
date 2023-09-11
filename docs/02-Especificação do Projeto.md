@@ -10,7 +10,7 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
 |    Persona    | Idade |           Ocupação           |                        Aplicativos                       |                      Motivações                     |                           Frustrações                          |                           Hobbies                          |
 |:-------------:|:-----:|:---------------------------:|:--------------------------------------------------------:|:--------------------------------------------------:|:----------------------------------------------------------------:|:---------------------------------------------------------:|
 | Maria Aparecida ![reacoes-sentimentos-e-emocoes-humanas-positivas-mulher-charmosa-e-elegante-de-meia-idade-de-sessenta-anos-de-idade-cabelos-curtos-e-grisalhos-com-sorriso-satisfeito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-proj-bibliosync/assets/103579574/49cfcc5e-e06d-407f-a916-0c261cf68869) |   58  | Bibliotecária de escola | WhatsApp, Instagram, jogos    | Trabalhar visando proporcionar uma boa qualidade de vida para a família. | Não conseguir ter um bom controle dos livros de sua biblioteca. | Gosta de ler, Ouvir música |
-| Gabriel Martins ![o-jovem-com-uma-camisa-trabalhando-em-um-laptop-em-lilas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-proj-bibliosync/assets/103579574/aea66113-9f26-45c4-bc7e-e5af89014a0a) |   29  |     Técnico em Informática   | WhatsApp, Instagram, Twitch, Youtube, Discord           | Conseguir ler pelo menos dois livros no mês. | Nãp saber onde encontrar livros que ele deseja ler. | Assistir séries, jogar jogos online e ler |
+| Gabriel Martins ![o-jovem-com-uma-camisa-trabalhando-em-um-laptop-em-lilas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-proj-bibliosync/assets/103579574/aea66113-9f26-45c4-bc7e-e5af89014a0a) |   29  |     Técnico em Informática   | WhatsApp, Instagram, Twitch, Youtube, Discord           | Conseguir ler pelo menos dois livros no mês. | Perder livros que ele empresta. | Assistir séries, jogar jogos online e ler |
 | Samara Rodrigues ![edward-cisneros-_H6wpor9mjs-unsplash](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-proj-bibliosync/assets/103579574/2b522301-5b55-4a3a-bbc8-1cc0469436e7)| 45 |         Dona de biblioteca na cidade          | WhatsApp, Youtube, Instagram                           | Atrair mais pessoas para sua biblioteca. | Ter que fazer controle de alugueis de livro manualmente. | Ler, ir ao teatro e à museus. |
 
 ## Histórias de Usuários
@@ -20,7 +20,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`         |PARA ... `MOTIVO/VALOR`                               |
 |--------------------|--------------------------------------------|------------------------------------------------------|
 |Maria Aparecida         |Econtrar um sistema que ajude na organização de livros.                      |Facilitar o controle de livros       |
-|Gabriel Martins      |Encontrar livros para empréstimo com mais facilidade.                          |Ler em maior quantidade com mais acessibilidade|
+|Gabriel Martins      | Algo que facilite no controle de empréstimos de livros                         | Para não perdê-los |
 |Samara Rodrigues        |Fazer um controle dos livros de sua biblioteca        |Ajudar a ela e seus funcionários para que não tenham que fazer o controle manualmente |
 
 ## Modelagem do Processo de Negócio 
@@ -65,18 +65,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Os usuários devem ser capazes de cadastrar informações sobre os livros, incluindo título, autor, data de publicação e gênero. | ALTA | 
 |RF-002| Sistema deve permitir aos usuários registrar empréstimos de livros para terceiros, incluindo data de empréstimo, data de devolução e biblioteca de origem.   | ALTA |
 |RF-003| Oferecer uma funcionalidade de pesquisa avançada que permita aos usuários localizar livros com base em vários critérios, como autor, título, gênero, entre outros.   | MÉDIA |
-|RF-004| Enviar notificações automáticas aos usuários para lembrar devoluções de livros emprestados e fornecer atualizações sobre eventos relacionados a seus livros e bibliotecas favoritas.   | MÉDIA |
-|RF-005| Integrar um sistema de pesquisa que permita aos usuários encontrar livros disponíveis em bibliotecas próximas à sua localização.   | ALTA |
-|RF-006| Permitir aos usuários reservar livros em bibliotecas próximas, especificando um período de reserva.   | ALTA |
-|RF-007| Manter um registro de histórico de todas as reservas e empréstimos realizados pelos usuários.   | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| Garantir que o aplicativo seja responsivo e rápido, mesmo com grandes volumes de dados e ao lidar com pesquisas em bibliotecas próximas. |  ALTA | 
-|RNF-002| Proteger os dados do usuário por meio de criptografia e práticas seguras de armazenamento, especialmente quando se trata de informações de localização. |  ALTA | 
-|RNF-003| Respeitar regulamentações de privacidade de dados, especialmente ao lidar com informações de localização dos usuários, e obter consentimento adequado para coleta e uso desses dados. |  ALTA | 
+|RNF-002| Proteger os dados do usuário por meio de criptografia e práticas seguras de armazenamento. |  ALTA | 
 
 ## Restrições
 
@@ -85,7 +80,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| A solução deve ser utilizável offline em certa medida, devido a possíveis limitações de conectividade dos usuários. |
-|02| Aplicação web e mobile devem ser desenvolvidas utilizando React e React Native, respectivamente       |
+|02| Aplicação web e mobile devem ser desenvolvidas utilizando React e React Native, respectivamente.       |
 
 ## Diagrama de Casos de Uso
 
